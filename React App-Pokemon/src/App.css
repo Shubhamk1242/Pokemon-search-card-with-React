@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  flex-direction: column;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.TitleSection {
+  /* background-color: #0afafa; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(72, 67, 167) 0%,
+    rgb(7, 170, 165) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 10px;
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid black;
+  color: rgb(15, 14, 14);
+}
+
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #03a1a1;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button {
+  width: 200px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(255, 77, 77);
+}
+
+.TitleSection button {
+  cursor: pointer;
+}
+
+.Container {
+  /* background-color: rgb(202, 255, 215);
+   */
+  background: rgb(250, 0, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 0, 245, 1) 0%,
+    rgba(245, 104, 97, 1) 30%,
+    rgba(255, 21, 179, 1) 100%
+  );
+  margin: 20px;
+  border-radius: 10%;
+  border: 2px solid black;
+  width: 700px;
+  height: 600px;
+  align-items: center;
+  align-self: center;
+}
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DisplaySection h4,
+h3 {
+  margin: 7px;
+  color: white;
+}
+
+.DisplaySection img {
+  width: 215px;
+  background-color: rgb(231, 239, 247);
+  border: 3px solid black;
+  border-radius: 125px;
+}
